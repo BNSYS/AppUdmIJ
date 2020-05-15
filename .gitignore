@@ -1,0 +1,26 @@
+# Compiled class file #
+*.class
+
+# Package files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# App files #
+*.apk
+*.ipa
+
+# Intellij #
+.idea/
+*.iml
+*.iws
+
+# Mac #
+.DS_Store
+
+# Maven #
+log/
+target/
