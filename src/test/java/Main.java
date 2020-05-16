@@ -11,14 +11,21 @@ import java.util.concurrent.TimeUnit;
 public class Main extends Capabilities {
 
     public static void main(String[] args) throws MalformedURLException {
+
+        String ipAddress="127.0.0.1";
+
         AndroidDriver<AndroidElement> driver = androidCapabilities();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
+//xpath Syntax  //tagName[@attribute='value']
         driver.findElementByXPath("//android.widget.TextView[@text='Preference']").click();
         driver.findElementByXPath("//android.widget.TextView[@text='3. Preference dependencies']").click();
-        driver.findElementByXPath("//android.widget.CheckBox[@resource-id='android:id/checkbox']").click();
-
-       // android:id/checkbox
+        //driver.findElementByXPath("//android.widget.CheckBox[@resource-id='android:id/checkbox']").click();
+        driver.findElementById("android:id/checkbox").click();      // android:id/checkbox
+//xpath Syntax   (//tagName[@attribute='value'])[2] handling duplicate instances
+        driver.findElementByXPath("(//android.widget.RelativeLayout)[2]").click();
+        driver.findElementByClassName("android.widget.EditText").sendKeys(ipAddress);
+//Handling duplicate instances
+        driver.findElementsByClassName("android.widget.Button").get(1).click();
     }
 
 }
