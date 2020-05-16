@@ -45,7 +45,7 @@ public class Capabilities {
         URL servUrl = new URL("http://127.0.0.1:4723/wd/hub");
 
         DesiredCapabilities cap = new DesiredCapabilities();
-        cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
+        //cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
         cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Android device");
         cap.setCapability(MobileCapabilityType.BROWSER_NAME,"Chrome");
         cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
