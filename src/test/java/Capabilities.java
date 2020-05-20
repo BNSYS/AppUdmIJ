@@ -7,6 +7,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.concurrent.TimeUnit;
 
 public class Capabilities {
     public static AndroidDriver<AndroidElement> androidCapabilities () throws MalformedURLException {
@@ -20,6 +21,7 @@ public class Capabilities {
         cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
         cap.setCapability(MobileCapabilityType.APP, fs.getAbsolutePath());
         AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(servUrl, cap);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         return driver;
     }

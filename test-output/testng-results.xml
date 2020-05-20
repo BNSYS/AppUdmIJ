@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="5" total="20" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="109" started-at="2020-05-20T13:39:01 CEST" finished-at="2020-05-20T13:39:01 CEST">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day1.byTest(java.lang.String)[pri:0, instance:tttestNG.Day1@6a4f787b]" name="byTest" class="tttestNG.Day1"/>
+        <method signature="Day1.helloTest()[pri:0, instance:tttestNG.Day1@6a4f787b]" name="helloTest" class="tttestNG.Day1"/>
+        <method signature="Day2.helloTest()[pri:0, instance:tttestNG.Day2@685cb137]" name="helloTest" class="tttestNG.Day2"/>
+        <method signature="Day3.apiLogin()[pri:0, instance:tttestNG.Day3@604ed9f0]" name="apiLogin" class="tttestNG.Day3"/>
+        <method signature="Day3.apiLogin()[pri:0, instance:tttestNG.Day3@5f341870]" name="apiLogin" class="tttestNG.Day3"/>
+        <method signature="Day3.worksapi()[pri:0, instance:tttestNG.Day3@5f341870]" name="worksapi" class="tttestNG.Day3"/>
+        <method signature="Day3.apiLogOut()[pri:0, instance:tttestNG.Day3@5f341870]" name="apiLogOut" class="tttestNG.Day3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Lalala" duration-ms="70" started-at="2020-05-20T13:39:01 CEST" finished-at="2020-05-20T13:39:01 CEST">
+      <class name="tttestNG.Main">
+        <test-method status="PASS" signature="beforeSuitSetup()[pri:0, instance:tttestNG.Main@91161c7]" name="beforeSuitSetup" is-config="true" duration-ms="30" started-at="2020-05-20T13:39:01 CEST" finished-at="2020-05-20T13:39:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuitSetup -->
+        <test-method status="PASS" signature="afterSuitSetup()[pri:0, instance:tttestNG.Main@91161c7]" name="afterSuitSetup" is-config="true" duration-ms="1" started-at="2020-05-20T13:39:01 CEST" finished-at="2020-05-20T13:39:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuitSetup -->
+      </class> <!-- tttestNG.Main -->
+      <class name="tttestNG.Day3">
+        <test-method status="PASS" signature="initialClinout()[pri:0, instance:tttestNG.Day3@5f341870]" name="initialClinout" is-config="true" duration-ms="1" started-at="2020-05-20T13:39:01 CEST" finished-at="2020-05-20T13:39:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialClinout -->
+        <test-method status="PASS" signature="apiLogin()[pri:0, instance:tttestNG.Day3@5f341870]" name="apiLogin" duration-ms="1" started-at="2020-05-20T13:39:01 CEST" finished-at="2020-05-20T13:39:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLogin -->
+        <test-method status="PASS" signature="weblogin()[pri:0, instance:tttestNG.Day3@5f341870]" name="weblogin" duration-ms="0" started-at="2020-05-20T13:39:01 CEST" finished-at="2020-05-20T13:39:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weblogin -->
+        <test-method status="PASS" signature="webLogout()[pri:0, instance:tttestNG.Day3@5f341870]" name="webLogout" duration-ms="0" started-at="2020-05-20T13:39:01 CEST" finished-at="2020-05-20T13:39:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLogout -->
+        <test-method status="PASS" signature="worksapi()[pri:0, instance:tttestNG.Day3@5f341870]" name="worksapi" duration-ms="0" started-at="2020-05-20T13:39:01 CEST" depends-on-methods="tttestNG.Day3.apiLogin" finished-at="2020-05-20T13:39:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- worksapi -->
+        <test-method status="PASS" signature="apiLogOut()[pri:0, instance:tttestNG.Day3@5f341870]" name="apiLogOut" duration-ms="0" started-at="2020-05-20T13:39:01 CEST" depends-on-methods="tttestNG.Day3.apiLogin, tttestNG.Day3.worksapi" finished-at="2020-05-20T13:39:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLogOut -->
+        <test-method status="PASS" signature="endClinOut()[pri:0, instance:tttestNG.Day3@5f341870]" name="endClinOut" is-config="true" duration-ms="3" started-at="2020-05-20T13:39:01 CEST" finished-at="2020-05-20T13:39:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endClinOut -->
+      </class> <!-- tttestNG.Day3 -->
+    </test> <!-- Lalala -->
+    <test name="C:/_Projects/AppUdmIJ/src/test/java/tttestNG" duration-ms="109" started-at="2020-05-20T13:39:01 CEST" finished-at="2020-05-20T13:39:01 CEST">
+      <class name="tttestNG.Main">
+        <test-method status="PASS" signature="testCaseLogin()[pri:0, instance:tttestNG.Main@91161c7]" name="testCaseLogin" duration-ms="1" started-at="2020-05-20T13:39:01 CEST" finished-at="2020-05-20T13:39:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseLogin -->
+        <test-method status="PASS" signature="testCaseLogin2()[pri:0, instance:tttestNG.Main@91161c7]" name="testCaseLogin2" duration-ms="0" started-at="2020-05-20T13:39:01 CEST" finished-at="2020-05-20T13:39:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseLogin2 -->
+      </class> <!-- tttestNG.Main -->
+      <class name="tttestNG.Day2">
+        <test-method status="PASS" signature="byTest(java.lang.String, java.lang.String)[pri:0, instance:tttestNG.Day2@685cb137]" name="byTest" duration-ms="15" started-at="2020-05-20T13:39:01 CEST" data-provider="getUserLoginData" finished-at="2020-05-20T13:39:01 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- byTest -->
+        <test-method status="PASS" signature="byTest(java.lang.String, java.lang.String)[pri:0, instance:tttestNG.Day2@685cb137]" name="byTest" duration-ms="0" started-at="2020-05-20T13:39:01 CEST" data-provider="getUserLoginData" finished-at="2020-05-20T13:39:01 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- byTest -->
+        <test-method status="PASS" signature="byTest(java.lang.String, java.lang.String)[pri:0, instance:tttestNG.Day2@685cb137]" name="byTest" duration-ms="0" started-at="2020-05-20T13:39:01 CEST" data-provider="getUserLoginData" finished-at="2020-05-20T13:39:01 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- byTest -->
+        <test-method status="PASS" signature="helloTest()[pri:0, instance:tttestNG.Day2@685cb137]" name="helloTest" duration-ms="0" started-at="2020-05-20T13:39:01 CEST" finished-at="2020-05-20T13:39:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helloTest -->
+      </class> <!-- tttestNG.Day2 -->
+      <class name="tttestNG.Day1">
+        <test-method status="FAIL" signature="byTest(java.lang.String)[pri:0, instance:tttestNG.Day1@6a4f787b]" name="byTest" duration-ms="0" started-at="2020-05-20T13:39:01 CEST" finished-at="2020-05-20T13:39:01 CEST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method byTest but has not been marked @Optional or defined
+in C:\_Projects\AppUdmIJ\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method byTest but has not been marked @Optional or defined
+in C:\_Projects\AppUdmIJ\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:744)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:783)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- byTest -->
+        <test-method status="PASS" signature="preconditionsD1()[pri:0, instance:tttestNG.Day1@6a4f787b]" name="preconditionsD1" is-config="true" duration-ms="13" started-at="2020-05-20T13:39:01 CEST" finished-at="2020-05-20T13:39:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preconditionsD1 -->
+        <test-method status="PASS" signature="helloTest()[pri:0, instance:tttestNG.Day1@6a4f787b]" name="helloTest" duration-ms="0" started-at="2020-05-20T13:39:01 CEST" finished-at="2020-05-20T13:39:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helloTest -->
+        <test-method status="PASS" signature="postconditionsD1()[pri:0, instance:tttestNG.Day1@6a4f787b]" name="postconditionsD1" is-config="true" duration-ms="0" started-at="2020-05-20T13:39:01 CEST" finished-at="2020-05-20T13:39:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postconditionsD1 -->
+      </class> <!-- tttestNG.Day1 -->
+      <class name="tttestNG.Day3">
+        <test-method status="PASS" signature="initialClinout()[pri:0, instance:tttestNG.Day3@604ed9f0]" name="initialClinout" is-config="true" duration-ms="1" started-at="2020-05-20T13:39:01 CEST" finished-at="2020-05-20T13:39:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialClinout -->
+        <test-method status="PASS" signature="apiLogin()[pri:0, instance:tttestNG.Day3@604ed9f0]" name="apiLogin" duration-ms="0" started-at="2020-05-20T13:39:01 CEST" finished-at="2020-05-20T13:39:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLogin -->
+        <test-method status="PASS" signature="weblogin()[pri:0, instance:tttestNG.Day3@604ed9f0]" name="weblogin" duration-ms="1" started-at="2020-05-20T13:39:01 CEST" finished-at="2020-05-20T13:39:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weblogin -->
+        <test-method status="PASS" signature="endClinOut()[pri:0, instance:tttestNG.Day3@604ed9f0]" name="endClinOut" is-config="true" duration-ms="0" started-at="2020-05-20T13:39:01 CEST" finished-at="2020-05-20T13:39:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endClinOut -->
+      </class> <!-- tttestNG.Day3 -->
+    </test> <!-- C:/_Projects/AppUdmIJ/src/test/java/tttestNG -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
